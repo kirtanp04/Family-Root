@@ -125,7 +125,7 @@ export default function Viewer({ objFamily }: Props) {
         if (relation !== "Spouse") {
           // Move source node to the left of the target node
           newSourceX = targetNode.position.x - 200;
-          newSourceY = targetNode.position.y;
+          // newSourceY = targetNode.position.y;
         }
         if (
           relation !== "Spouse" &&
@@ -134,16 +134,16 @@ export default function Viewer({ objFamily }: Props) {
         ) {
           // Move source node to the left of the target node
           newSourceX = targetNode.position.x + 200;
-          newSourceY = targetNode.position.y;
+          // newSourceY = targetNode.position.y;
         }
         if (relation === "Parent") {
           // Move source node above the target node
-          newSourceX = targetNode.position.x;
-          newSourceY = targetNode.position.y - 200;
+          // newSourceX = targetNode.position.x;
+          newSourceY = targetNode.position.y + 200;
         }
         if (relation === "Children") {
           // Move source node below the target node
-          newSourceX = targetNode.position.x;
+          // newSourceX = targetNode.position.x;
           newSourceY = targetNode.position.y + 200;
         }
 
@@ -317,7 +317,9 @@ export default function Viewer({ objFamily }: Props) {
   return (
     <div className="relative h-full w-full">
       <h3 className="absolute left-5 top-4 z-10 text-2xl font-semibold">
-        {objFamily.familyName}
+        {/* {objFamily.familyName}
+         */}
+        Family Name
       </h3>
 
       <Button

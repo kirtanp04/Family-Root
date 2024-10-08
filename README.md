@@ -2,7 +2,7 @@
 
 A modern family tree builder application where users can create, edit, and visualize their family trees interactively. This project is built using the **T3 Stack**, including **Next.js**, **tRPC**, **Prisma**, **TypeScript**, and **TailwindCSS**.
 
-![Family Tree Builder Preview](preview-image-url)
+![Family Tree Builder Preview](./public/Family-root-1.png)
 
 ## **Features**
 
