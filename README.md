@@ -4,6 +4,8 @@ A modern family tree builder application where users can create, edit, and visua
 
 ![Family Tree Builder Preview](./public/Family-root-1.png)
 
+![Family Tree Builder Preview](./public/Family-root-dark.png)
+
 ## **Features**
 
 - 🧬 **Interactive Family Tree**: Easily add, edit, and remove family members with a dynamic tree structure.
